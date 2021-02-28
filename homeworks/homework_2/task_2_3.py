@@ -5,7 +5,6 @@ idx = 0
 size = len(message_list)
 while idx < size:
     temp = message_list[idx]
-    symbol = ''
     for idy in range(len(temp)):
         if temp[idy:].isdigit():
             symbol = temp[:idy]
